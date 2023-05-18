@@ -23,15 +23,15 @@ const Biografia = () => {
             </div>
             <div className={styles.descricao}>
               <p>
-                Sou <strong>redatora</strong> e <strong>estrategista criativa</strong>.
+                Sou redatora e estrategista criativa.
               </p>
               <br />
               <p>
-                <strong>Jornalista</strong>  de formação pela FACH com especialidade em <strong>humanização de conteúdo e experiência do usuário.</strong>  Apaixonada por gente, boas ideias e negócios inovadores, revoluciono a comunicação de marcas com <strong>autenticidade e conexão.</strong>
+                Jornalista de formação pela FACH com especialidade em humanização de conteúdo e experiência do usuário. Apaixonada por gente, boas ideias e negócios inovadores, revoluciono a comunicação de marcas com autenticidade e conexão.
               </p>
               <br />
               <p>
-                Aqui, apresento meus principais trabalhos com <strong>arketing, comunicação digital, redação criativa e criação para redes.</strong>
+                Aqui, apresento meus principais trabalhos com arketing, comunicação digital, redação criativa e criação para redes.
               </p>
             </div>
           </div>

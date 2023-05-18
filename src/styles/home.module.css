@@ -20,6 +20,10 @@
   margin-bottom: 4rem;
 }
 
+.descricao h1 {
+  margin-bottom: 1rem;
+}
+
 .descricao p {
   width: 100%;
   max-width: 45vw;
