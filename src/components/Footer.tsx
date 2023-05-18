@@ -7,7 +7,6 @@ import { hagridRegular2 } from "@/styles/fonts";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-
       <div className={styles.icons}>
         <BsFacebook />
         <a href="https://www.linkedin.com/in/livialimams/" target="_blank" rel="noopener noreferrer">
@@ -16,7 +15,6 @@ const Footer = () => {
         <BsTwitter />
         <BsInstagram />
       </div>
-
       <h5>Marcas incriveis para qual já trabalhei</h5>
       <div className={styles.logo}>
         <Image

@@ -6,7 +6,10 @@ export const metadata = {
   title: 'Portifolio Lívia Lima',
   description: 'Site Portifólio criado com NextJs',
   viewport: {
-    width: 'device-width',
+    minwidth: 'device-width',
+    initialScale: 2,
+    maximumScale: 1,
+    
   },
   icons:  {
     icon: 'public/favicon.ico'

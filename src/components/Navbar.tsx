@@ -56,8 +56,8 @@ const handleHide = () => {
       <nav className={styles['navbar-togle']}>
         <div className={styles.logo} onClick={() => handleHide()}>
           { hide !== 'block' 
-            ? <AiOutlineMenuUnfold size={32} />
-            : <AiOutlineMenuFold size={32} />
+            ? <AiOutlineMenuUnfold className={styles.svg}/>
+            : <AiOutlineMenuFold className={styles.svg}/>
           }
         </div>
         <div style={{ display: hide }}>

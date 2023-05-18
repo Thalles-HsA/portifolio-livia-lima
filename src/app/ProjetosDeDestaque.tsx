@@ -9,6 +9,14 @@ import img20 from 'public/img/20.png'
 import img21 from 'public/img/21.png'
 import img24 from 'public/img/24semmargem.png'
 
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  viewport: {
+    width: '1200',
+  },
+};
+
 const ProjetosDeDestque = () => {
   return (
     <>

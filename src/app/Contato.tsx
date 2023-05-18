@@ -49,9 +49,8 @@ const Contato = () => {
                 </strong>
               </p>
               <a href="https://www.linkedin.com/in/livialimams/" target="_blank" ><FaLinkedin /></a>
-              
             </div>
-            <div>
+            <div className={styles.balao}>
               <Image
                 src='/gif/balaodetexto.gif'
                 width={100}

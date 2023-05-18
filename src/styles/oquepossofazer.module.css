@@ -19,7 +19,7 @@
   font-size: 3rem;
   width: 100%;
   max-width: 22vw;
-  line-height: 2;
+  line-height: 1.5;
   color: #5B6946;
 }
 
@@ -28,7 +28,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  text-align: left;
+  text-align: justify;
 }
 
 .descricao h3 {
@@ -51,33 +51,68 @@
 
 @media screen and (max-width: 900px) {
   .conteudo {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .titulo {
-    display: flex;
     align-items: center;
-    flex-direction: column;
     margin-right: 0 ;
   }
 
   .titulo h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    width: 100%;
     max-width: 80vw;
-    line-height: 2;
-    color: #5B6946;
+  }
+
+  .descricao div {
+    max-width: 90vw;
+  }
+
+  .descricao div h3{
+    font-size: 1.2rem;
+  }
+  .descricao div p{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .container {
+    padding: 1rem 0.5rem;
+  }
+
+  .titulo h2 {
+    font-size: 1.5rem;
+    max-width: 70vw;
   }
 
   .descricao div {
     display: flex;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     width: 100%;
-    max-width: 80vw;
   }
+
+  .descricao div img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .descricao div h3{
+    font-size: 1rem;
+  }
+  .descricao div p{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+
+
+  .descricao div {
+    max-width: 90vw;
+  }
+  
 }

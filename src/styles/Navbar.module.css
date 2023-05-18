@@ -48,17 +48,15 @@
   border-radius: 10px;
   box-shadow: 2px 2px 6px #c1c1c1;
   margin: 1rem;
-  z-index: 1;
+  z-index: 3;
 }
 
 .logo {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1.5rem;
   color: #D46BCA;
+  font-size: 2rem;
 }
 
-.logo img {
-  margin-right: 1rem;
-}
 
 .navbar-togle ul {
   display: flex;
@@ -88,4 +86,13 @@
   .navbar-togle {
     display: none;
   }
+}
+
+@media screen and (max-width: 600px) {
+
+  .logo {
+    padding: 0.2rem 1rem;
+    font-size: 1rem ;
+  }
+
 }

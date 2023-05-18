@@ -10,14 +10,14 @@ const Biografia = () => {
       <div className={styles.container} id='biografia'>
         <div className={styles.conteudo}>
           <div>
-            <div>
+            <div className={styles.titulo}>
               <Image
                 src='/gif/about.gif'
                 width={100}
                 height={100}
                 alt='About'
               />
-              <h2 className={styles.titulo} >Oi, eu sou a <span className={hagridExtrabold.className}>
+              <h2>Oi, eu sou a <span className={hagridExtrabold.className}>
                 Lívia
               </span> </h2>
             </div>
