@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.botao {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #D46BCA;
+  width: 10rem ;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.container img {
+  position: relative;
+  left: 6rem;
+}

@@ -1,0 +1,99 @@
+.container {
+  padding: 3rem 2rem;
+}
+.conteudo {
+  color: #553566;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.descricao {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.descricao h3 {
+  font-size: 3rem;
+  color: #D46BCA;
+  margin-bottom: 2rem;
+}
+
+.descricao p {
+  width: 30vw;
+}
+
+.descricao a {
+  text-decoration: none;
+  color: #000
+}
+
+
+.descricao img {
+  position: absolute;
+  right: 2% ;
+  bottom: -5%;
+}
+
+.icons p {
+  color: #D46BCA;
+  margin-bottom: 1rem;
+}
+
+.icons svg {
+  font-size: 3rem;
+  color: #0277B5;
+}
+
+.contatos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.contatos svg {
+  font-size: 2rem;
+  margin-right: 2rem;
+  color: #FD883D;
+}
+
+.imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  margin: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+
+  .descricao {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .descricao h3 {
+    font-size: 3rem;
+    color: #D46BCA;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+
+  .descricao p {
+    width: 50vw;
+  }
+  
+}

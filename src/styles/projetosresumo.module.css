@@ -1,0 +1,55 @@
+.resumo,
+.resumo-invertido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4rem 3rem;
+  border-bottom: solid 1px #c1c1c1;
+  position: relative;
+}
+
+.resumo-descricao {
+  width: 100%;
+  max-width: 40vw;
+  z-index: 1;
+}
+
+.resumo-descricao h2 {
+  font-size: 2rem;
+}
+
+.resumo-descricao h3 {
+  color: #D46BCA;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.resumo-descricao hr {
+  margin: 2rem 0;
+  width: 40vw;
+}
+
+.resumo-descricao p {
+  text-align: justify;
+}
+
+.resumo-imagens {
+  width: 100%;
+  max-width: 45vw;
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gif {
+  position: absolute;
+  top: 50%;
+  left: 49.2%;
+  transform: translate(-50%, -50%);
+}
