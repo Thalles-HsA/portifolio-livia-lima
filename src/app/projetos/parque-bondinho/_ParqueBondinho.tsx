@@ -4,7 +4,6 @@ import Image from 'next/image'
 import styles from '@/styles/app/projetos/projetos.module.css'
 import { hagridExtrabold, hagridRegular2 } from '@/styles/fonts'
 import VideoPlayer from '@/components/Video'
-import VimeoVideo from '@/components/VideoVimeo'
 
 const ParqueBondinho = () => {
   return (
@@ -69,7 +68,7 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-vertical-imagens']}>
-          <VideoPlayer videoUrl="/video/PqBondinho/4.mp4" srcPoster='/img/posterVideos/PqBondinho/4.jpg' />
+          <VideoPlayer videoUrl="/video/5.mp4" srcPoster='/img/posterVideos/PqBondinho/4.jpg' />
           <VideoPlayer videoUrl="/video/PqBondinho/5.mp4" srcPoster='/img/posterVideos/PqBondinho/5.jpg' />
 
           

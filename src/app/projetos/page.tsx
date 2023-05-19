@@ -49,6 +49,7 @@ export default function Home() {
               alt='Imagem de uma tela de celular com um perfil do instagram aberto'
               className={styles.img}
               quality={10}
+              priority
             />
         </div >
       </div>
