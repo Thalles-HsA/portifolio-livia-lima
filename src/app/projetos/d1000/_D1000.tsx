@@ -27,14 +27,14 @@ const D1000 = () => {
             alt='Imagens de posts do instagram'
             quality={25}
           />
-          <VideoPlayer videoUrl="/video/D1000/20.mp4" />
+          <VideoPlayer videoUrl="/video/D1000/20.mp4" srcPoster='/img/posterVideos/D1000/20.jpg'/>
         </div>
       </div>
       <div className={styles['conteudo-horizontal']}>
         <div className={styles['conteudo-horizontal-imagens']}>
-          <VideoPlayer videoUrl="/video/D1000/21.mp4" />
-          <VideoPlayer videoUrl="/video/D1000/22.mp4" />
-          <VideoPlayer videoUrl="/video/D1000/23.mp4" />
+          <VideoPlayer videoUrl="/video/D1000/21.mp4" srcPoster='/img/posterVideos/D1000/21.jpg'/>
+          <VideoPlayer videoUrl="/video/D1000/22.mp4" srcPoster='/img/posterVideos/D1000/22.jpg'/>
+          <VideoPlayer videoUrl="/video/D1000/23.mp4" srcPoster='/img/posterVideos/D1000/23.jpg'/>
         </div>
         <div className={styles['conteudo-horizontal-descricao']}>
           <h2>
@@ -76,9 +76,8 @@ const D1000 = () => {
             alt='Imagens de posts do instagram'
             quality={25}
           />
-          <VideoPlayer videoUrl="/video/D1000/24.mp4" />
-          <VideoPlayer videoUrl="/video/D1000/25.mp4" />
-          <VideoPlayer videoUrl="/video/D1000/26.mp4" />
+          <VideoPlayer videoUrl="/video/D1000/24.mp4" srcPoster='/img/posterVideos/D1000/24.jpg'/>
+          <VideoPlayer videoUrl="/video/D1000/26.mp4" srcPoster='/img/posterVideos/D1000/26.jpg'/>
         </div>
       </div>
       <div className={styles['conteudo-vertical']}>
@@ -102,7 +101,7 @@ const D1000 = () => {
             alt='Imagens de posts do instagram'
             quality={25}
           />
-          <VideoPlayer videoUrl="/video/D1000/27.mp4" />
+          <VideoPlayer videoUrl="/video/D1000/27.mp4" srcPoster='/img/posterVideos/D1000/27.jpg'/>
         </div>
       </div>
       <div className={styles['conteudo-vertical']}>
@@ -126,7 +125,7 @@ const D1000 = () => {
             alt='Imagens de posts do instagram'
             quality={25}
           />
-          <VideoPlayer videoUrl="/video/D1000/28.mp4" />
+          <VideoPlayer videoUrl="/video/D1000/28.mp4" srcPoster='/img/posterVideos/D1000/28.jpg'/>
         </div>
       </div>
       <div className={styles.resultados}>

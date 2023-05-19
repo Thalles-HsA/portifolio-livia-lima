@@ -6,9 +6,10 @@ import 'plyr/dist/plyr.css';
 
 interface Props {
   videoUrl: string;
+  srcPoster: string;
 }
 
-const VideoPlayer = ({ videoUrl }: Props) => {
+const VideoPlayer = ({ videoUrl, srcPoster }: Props) => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -24,8 +25,8 @@ const VideoPlayer = ({ videoUrl }: Props) => {
   }, []);
 
   return (
-    <video ref={videoRef}  >
-      <source src={videoUrl} type="video/mp4"/>
+    <video ref={videoRef} poster={srcPoster}>
+      <source src={videoUrl} type="video/mp4" />
     </video>
   );
 };

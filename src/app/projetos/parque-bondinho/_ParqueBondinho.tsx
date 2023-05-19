@@ -1,16 +1,19 @@
+'use client'
+
 import Image from 'next/image'
 import styles from '@/styles/app/projetos/projetos.module.css'
 import { hagridExtrabold, hagridRegular2 } from '@/styles/fonts'
 import VideoPlayer from '@/components/Video'
+import VimeoVideo from '@/components/VideoVimeo'
 
 const ParqueBondinho = () => {
   return (
     <>
       <div className={styles['conteudo-horizontal']}>
         <div className={styles['conteudo-horizontal-imagens']}>
-          <VideoPlayer videoUrl="/video/PqBondinho/1.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/2.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/3.mp4" />
+          <VideoPlayer videoUrl="/video/PqBondinho/1.mp4" srcPoster='/img/posterVideos/PqBondinho/1.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/2.mp4" srcPoster='/img/posterVideos/PqBondinho/2.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/3.mp4" srcPoster='/img/posterVideos/PqBondinho/3.jpg'/>
         </div>
         <div className={styles['conteudo-horizontal-descricao']}>
           <h2>
@@ -66,8 +69,10 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-vertical-imagens']}>
-          <VideoPlayer videoUrl="/video/PqBondinho/4.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/5.mp4" />
+          <VideoPlayer videoUrl="/video/PqBondinho/4.mp4" srcPoster='/img/posterVideos/PqBondinho/4.jpg' />
+          <VideoPlayer videoUrl="/video/PqBondinho/5.mp4" srcPoster='/img/posterVideos/PqBondinho/5.jpg' />
+
+          
           <Image
             src='/img/PqBondinho/33.png'
             width={500}
@@ -91,8 +96,8 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-vertical-imagens']}>
-          <VideoPlayer videoUrl="/video/PqBondinho/6.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/7.mp4" />
+          <VideoPlayer videoUrl="/video/PqBondinho/6.mp4" srcPoster='/img/posterVideos/PqBondinho/6.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/7.mp4" srcPoster='/img/posterVideos/PqBondinho/7.jpg' />
           <Image
             src='/img/PqBondinho/2.png'
             width={250}
@@ -151,16 +156,16 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-horizontal-imagens']}>
-          <VideoPlayer videoUrl="/video/PqBondinho/8.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/9.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/10.mp4" />
+          <VideoPlayer videoUrl="/video/PqBondinho/8.mp4" srcPoster='/img/posterVideos/PqBondinho/8.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/9.mp4" srcPoster='/img/posterVideos/PqBondinho/9.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/10.mp4" srcPoster='/img/posterVideos/PqBondinho/10.jpg'/>
         </div>
       </div>
       <div className={styles['conteudo-horizontal']}>
         <div className={styles['conteudo-horizontal-imagens']}>
-          <VideoPlayer videoUrl="/video/PqBondinho/11.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/12.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/13.mp4" />
+          <VideoPlayer videoUrl="/video/PqBondinho/11.mp4" srcPoster='/img/posterVideos/PqBondinho/11.jpg' />
+          <VideoPlayer videoUrl="/video/PqBondinho/12.mp4" srcPoster='/img/posterVideos/PqBondinho/12.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/13.mp4" srcPoster='/img/posterVideos/PqBondinho/13.jpg'/>
         </div>
         <div className={styles['conteudo-horizontal-descricao']}>
           <h2>
@@ -200,8 +205,8 @@ const ParqueBondinho = () => {
             alt='Imagens de posts do instagram'
             quality={25}
           />
-          <VideoPlayer videoUrl="/video/PqBondinho/14.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/15.mp4" />
+          <VideoPlayer videoUrl="/video/PqBondinho/14.mp4" srcPoster='/img/posterVideos/PqBondinho/14.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/15.mp4" srcPoster='/img/posterVideos/PqBondinho/15.jpg'/>
         </div>
       </div>
       <div className={styles['conteudo-vertical']}>
@@ -248,10 +253,10 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-vertical-imagens']}>
-          <VideoPlayer videoUrl="/video/PqBondinho/16.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/17.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/18.mp4" />
-          <VideoPlayer videoUrl="/video/PqBondinho/19.mp4" />
+          <VideoPlayer videoUrl="/video/PqBondinho/16.mp4" srcPoster='/img/posterVideos/PqBondinho/16.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/17.mp4" srcPoster='/img/posterVideos/PqBondinho/17.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/18.mp4" srcPoster='/img/posterVideos/PqBondinho/18.jpg'/>
+          <VideoPlayer videoUrl="/video/PqBondinho/19.mp4" srcPoster='/img/posterVideos/PqBondinho/19.jpg'/>
         </div>
       </div>
       <div className={styles.resultados}>
