@@ -19,7 +19,7 @@ const ProjetosDeDestque = () => {
             <Image
               src={img18}
               alt='Imagem de uma tela de celular'
-              quality={50}
+              quality={25}
             />
           </Link>
 
@@ -27,7 +27,7 @@ const ProjetosDeDestque = () => {
             <Image
               src={img20}
               alt='Imagem de uma tela de celular'
-              quality={50}
+              quality={25}
             />
           </Link>
 
@@ -38,7 +38,7 @@ const ProjetosDeDestque = () => {
               width={100}
               height={100}
               alt='git education'
-              quality={10}
+              quality={5}
             />
           </Link>
 
@@ -46,7 +46,7 @@ const ProjetosDeDestque = () => {
             <Image
               src={img19}
               alt='Imagem de uma tela de celular'
-              quality={50}
+              quality={25}
             />
           </Link>
 
@@ -54,7 +54,7 @@ const ProjetosDeDestque = () => {
             <Image
               src={img21}
               alt='Imagem de uma tela de celular'
-              quality={50}
+              quality={25}
             />
           </Link>
 
@@ -62,7 +62,7 @@ const ProjetosDeDestque = () => {
             <Image
               src={img24}
               alt='Imagem de uma tela de celular'
-              quality={50}
+              quality={25}
             />
           </Link>
 

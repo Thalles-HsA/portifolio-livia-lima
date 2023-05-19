@@ -25,7 +25,7 @@ const D1000 = () => {
             width={500}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
           <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
@@ -77,7 +77,7 @@ const D1000 = () => {
             width={500}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
           <VideoPlayer videoUrl="/video/video2.mp4" />
           <VideoPlayer videoUrl="/video/video2.mp4" />
@@ -103,7 +103,7 @@ const D1000 = () => {
             width={500}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
           <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
@@ -128,7 +128,7 @@ const D1000 = () => {
             width={500}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
           <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
@@ -149,7 +149,7 @@ const D1000 = () => {
             width={120}
             height={120}
             alt='git education'
-            quality={50}
+            quality={25}
           />
         </div>
 

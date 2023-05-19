@@ -16,7 +16,7 @@ const Biografia = () => {
                 width={100}
                 height={100}
                 alt='About'
-                quality={10}
+                quality={5}
               />
               <h2>Oi, eu sou a <span className={hagridExtrabold.className}>
                 Lívia
@@ -40,7 +40,7 @@ const Biografia = () => {
             src={imagemPerfil}
             alt='Imagem de perfil'
             className={styles.imagemdeperfil}
-            quality={50}
+            quality={25}
           />
         </div >
       </div >

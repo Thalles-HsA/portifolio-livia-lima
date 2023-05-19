@@ -40,7 +40,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.gif}
-              quality={10}
+              quality={5}
 
             />
             <Image
@@ -64,7 +64,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.gif}
-              quality={10}
+              quality={5}
             />
             <Image
               src='/img/39.png'
@@ -115,7 +115,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.gif}
-              quality={10}
+              quality={5}
             />
             <Image
               src='/img/40.png'
@@ -138,7 +138,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.gif}
-              quality={10}
+              quality={5}
             />
 
           </h1>

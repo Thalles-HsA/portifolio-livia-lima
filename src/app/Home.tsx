@@ -25,7 +25,7 @@ const Home = () => {
             height={150}
             alt='Gif animado'
             priority
-            quality={25}
+            quality={5}
           />
           <Image
             src='/gif/gif-circulo.gif'
@@ -33,7 +33,7 @@ const Home = () => {
             height={150}
             alt='Gif animado'
             priority
-            quality={25}
+            quality={5}
           />
           <Image
             src='/gif/gif-quadrado.gif'
@@ -41,7 +41,7 @@ const Home = () => {
             height={150}
             alt='Gif animado'
             priority
-            quality={25}
+            quality={5}
           />
         </div>
       </div>

@@ -52,7 +52,7 @@ const ParqueBondinho = () => {
             width={500}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
         </div>
       </div>
@@ -78,7 +78,7 @@ const ParqueBondinho = () => {
             src='/img/33.png'
             width={500}
             height={500}
-            quality={50}
+            quality={25}
             alt='git education'
           />
         </div>
@@ -106,14 +106,14 @@ const ParqueBondinho = () => {
             width={250}
             height={458}
             alt='git education'
-            quality={50}
+            quality={25}
           />
           <Image
             src='/img/3.png'
             width={250}
             height={458}
             alt='git education'
-            quality={50}
+            quality={25}
           />
 
         </div>
@@ -138,7 +138,7 @@ const ParqueBondinho = () => {
             width={500}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
         </div>
       </div>
@@ -210,7 +210,7 @@ const ParqueBondinho = () => {
             width={360}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
           <VideoPlayer videoUrl="/video/video2.mp4" />
           <VideoPlayer videoUrl="/video/video2.mp4" />
@@ -236,14 +236,14 @@ const ParqueBondinho = () => {
             width={500}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
           <Image
             src='/img/37.png'
             width={500}
             height={500}
             alt='git education'
-            quality={50}
+            quality={25}
           />
         </div>
       </div>

@@ -3,17 +3,14 @@ import { hagridRegular } from '@/styles/fonts'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Portifolio Lívia Lima',
+  title: 'Portifólio Lívia Lima',
   description: 'Site Portifólio criado com NextJs',
   viewport: {
     minwidth: 'device-width',
-    initialScale: 2,
+    initialScale: 1,
     maximumScale: 1,
-    
+
   },
-  icons:  {
-    icon: 'public/favicon.ico'
-  }
 
 }
 
@@ -24,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={hagridRegular.className}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body>
         {children}
         <Footer />

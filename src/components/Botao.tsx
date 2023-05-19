@@ -22,7 +22,7 @@ const Botao = ({ href, target='' }: Props) => {
           width={100}
           height={100}
           alt='Toque'
-          quality={10}
+          quality={5}
         />
       </div >
     </>

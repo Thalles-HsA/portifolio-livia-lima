@@ -17,7 +17,7 @@ const DeOndeVim = () => {
                 width={150}
                 height={150}
                 alt='git education'
-                quality={10}
+                quality={5}
               />
             </div>
             <div className={styles.descricao}>
@@ -27,7 +27,7 @@ const DeOndeVim = () => {
                   width={50}
                   height={50}
                   alt='git education'
-                  quality={10}
+                  quality={5}
                 />
                 <h3>Campo Grande para o Mundo</h3>
                 <p>
@@ -50,7 +50,7 @@ const DeOndeVim = () => {
                   width={50}
                   height={50}
                   alt='git education'
-                  quality={10}
+                  quality={5}
                 />
                 <h3>FACHA</h3>
                 <p>
