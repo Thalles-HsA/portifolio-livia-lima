@@ -68,7 +68,7 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-vertical-imagens']}>
-          <VideoPlayer videoUrl="/video/5.mp4" srcPoster='/img/posterVideos/PqBondinho/4.jpg' />
+          <VideoPlayer videoUrl="/video/PqBondinho/4.mp4" srcPoster='/img/posterVideos/PqBondinho/4.jpg' />
           <VideoPlayer videoUrl="/video/PqBondinho/5.mp4" srcPoster='/img/posterVideos/PqBondinho/5.jpg' />
 
           
