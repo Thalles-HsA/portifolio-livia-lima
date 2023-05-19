@@ -1,4 +1,4 @@
-import styles from '@/styles/botao.module.css'
+import styles from '@/styles/components/Botao.module.css'
 import { hagridExtrabold } from '@/styles/fonts'
 import Image from 'next/image'
 import Link from 'next/link'

@@ -1,5 +1,5 @@
 import NavbarProjetos from '@/components/NavbarProjetos'
-import styles from '@/styles/projetosresumo.module.css'
+import styles from '@/styles/app/projetos/projetosresumo.module.css'
 import { hagridExtrabold, hagridRegular, hagridRegular2 } from '@/styles/fonts'
 import Image from 'next/image'
 import Botao from '@/components/Botao'
@@ -38,23 +38,20 @@ export default function Home() {
               src='/gif/celular.gif'
               width={500}
               height={500}
-              alt='git education'
+              alt='gif de um celular com fios se mechendo'
               className={styles.gif}
               quality={5}
-
             />
             <Image
-              src='/img/24.png'
+              src='/img/PqBondinho/24.png'
               width={500}
               height={500}
-              alt='git education'
+              alt='Imagem de uma tela de celular com um perfil do instagram aberto'
               className={styles.img}
               quality={10}
-
             />
         </div >
       </div>
-
       <div className={styles['resumo-invertido']}>
         <div className={`${styles['resumo-container-imagem']} ${styles['resumo-imagens']}`}>
           <h1 className={hagridRegular.className}>
@@ -62,15 +59,15 @@ export default function Home() {
               src='/gif/celular.gif'
               width={500}
               height={500}
-              alt='git education'
+              alt='gif de um celular com fios se mechendo'
               className={styles.gif}
               quality={5}
             />
             <Image
-              src='/img/39.png'
+              src='/img/D1000/39.png'
               width={500}
               height={500}
-              alt='git education'
+              alt='Imagem de uma tela de celular com um perfil do instagram aberto'
               className={styles.img}
               quality={10}
             />
@@ -89,14 +86,11 @@ export default function Home() {
           </p>
           <Botao href='/projetos/d1000' />
         </div >
-
       </div>
-
       <div className={styles.resumo}>
         <div className={styles['resumo-descricao']}>
           <h2>
             Coordenação  de Conteúdo e Comunidade
-
           </h2>
           <h3 className={hagridExtrabold.className}>
             Club Med Trancoso
@@ -113,22 +107,21 @@ export default function Home() {
               src='/gif/celular.gif'
               width={500}
               height={500}
-              alt='git education'
+              alt='gif de um celular com fios se mechendo'
               className={styles.gif}
               quality={5}
             />
             <Image
-              src='/img/40.png'
+              src='/img/ClubMed/40.png'
               width={500}
               height={500}
-              alt='git education'
+              alt='Imagem de uma tela de celular com um perfil do instagram aberto'
               className={styles.img}
               quality={10}
             />
           </h1>
         </div >
       </div>
-
       <div className={styles['resumo-invertido']} id='shopping'>
         <div className={`${styles['resumo-container-imagem']} ${styles['resumo-imagens']}`}>
           <h1 className={hagridRegular.className}>
@@ -136,11 +129,10 @@ export default function Home() {
               src='/gif/shopping.gif'
               width={500}
               height={500}
-              alt='git education'
+              alt='gif com o logo do shopping tijuca'
               className={styles.gif}
               quality={5}
             />
-
           </h1>
         </div >
         <div className={styles['resumo-descricao']} >
@@ -156,7 +148,6 @@ export default function Home() {
           </p>
           <Botao href='https://www.behance.net/liviamlima' target='_blank'/>
         </div >
-
       </div>
     </>
 

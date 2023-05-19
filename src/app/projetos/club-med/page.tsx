@@ -1,5 +1,5 @@
 import NavbarProjetos from '@/components/NavbarProjetos'
-import ClubMed from './ClubMed'
+import ClubMed from './_ClubMed'
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {

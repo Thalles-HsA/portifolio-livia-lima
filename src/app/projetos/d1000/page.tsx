@@ -1,5 +1,5 @@
 import NavbarProjetos from '@/components/NavbarProjetos'
-import D1000 from './D1000'
+import D1000 from './_D1000'
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

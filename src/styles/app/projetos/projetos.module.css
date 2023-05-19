@@ -1,0 +1,129 @@
+.conteudo-horizontal {
+  background-color: #553566;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  border-bottom: solid 1px;
+}
+
+.conteudo-horizontal h2 {
+  font-size: 2rem;
+}
+
+.conteudo-horizontal h3 {
+  color: #FD883D;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.conteudo-horizontal p {
+  text-align: justify;
+}
+
+.conteudo-horizontal hr {
+  border-color: #FD883D;
+  margin: 2rem 0;
+}
+
+.conteudo-horizontal-descricao {
+  width: 40vw;
+  color: #fff;
+}
+
+.conteudo-horizontal-imagens {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 1rem;
+}
+
+.conteudo-horizontal-imagens video {
+  width: 200px !important
+}
+
+
+/* ------------------------------------- */
+.conteudo-vertical {
+  background-color: #553566;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px;
+}
+
+.conteudo-vertical h2 {
+  font-size: 2rem;
+}
+
+.conteudo-vertical h3 {
+  color: #FD883D;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.conteudo-vertical hr {
+  border-color: #FD883D;
+  margin: 2rem 0;
+}
+
+.conteudo-vertical p {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.conteudo-vertical-descricao {
+  width: 60vw;
+  color: #fff;
+}
+
+.conteudo-vertical-imagens {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.conteudo-vertical-imagens img {
+  padding: 1rem;
+}
+
+.conteudo-vertical-imagens video {
+  width: 200px !important
+}
+
+/* -------------------------------------- */
+.resultados {
+  padding: 3rem 5rem;
+}
+
+.resultados-titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resultados-titulo h3 {
+  font-size: 3rem;
+  color: #D46BCA;
+  margin-bottom: 1rem;
+}
+
+.resultados-titulo div {
+  width: 50vw;
+}
+
+.resultados-descricao {
+  padding: 2rem;
+  background-color: #FD883D;
+  border-radius: 30px;
+  margin-top: 3rem;
+}
+
+.resultados-descricao ul {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.resultados-descricao li {
+  padding: 1rem;
+}

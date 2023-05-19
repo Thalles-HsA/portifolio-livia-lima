@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from '../styles/Footer.module.css'
+import styles from '../styles/components/Footer.module.css'
 import { BsFacebook, BsLinkedin, BsTwitter, BsInstagram } from 'react-icons/bs'
 import { hagridRegular2 } from "@/styles/fonts";
 
@@ -18,28 +18,28 @@ const Footer = () => {
       <h5>Marcas incriveis para qual já trabalhei</h5>
       <div className={styles.logo}>
         <Image
-          src='/bondinho.svg'
+          src='/img/Footer/bondinho.svg'
           width={150}
           height={150}
           alt="Logo"
           quality={10}
         />
         <Image
-          src='/d1000.svg'
+          src='/img/Footer/d1000.svg'
           width={150}
           height={150}
           alt="Logo"
           quality={10}
         />
         <Image
-          src='/clubMed.svg'
+          src='/img/Footer/clubMed.svg'
           width={150}
           height={150}
           alt="Logo"
           quality={10}
         />
         <Image
-          src='/shoppingTijuca.svg'
+          src='/img/Footer/shoppingTijuca.svg'
           width={150}
           height={150}
           alt="Logo"

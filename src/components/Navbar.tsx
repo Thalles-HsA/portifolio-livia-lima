@@ -1,9 +1,9 @@
 'use client'
 
 import Image from "next/image";
-import styles from '../styles/Navbar.module.css'
+import styles from '../styles/components/Navbar.module.css'
 import Link from "next/link";
-import { AiOutlineMenu, AiOutlineMenuUnfold, AiOutlineMenuFold } from 'react-icons/ai'
+import { AiOutlineMenuUnfold, AiOutlineMenuFold } from 'react-icons/ai'
 import { useState } from "react";
 
 const Navbar = () => {
@@ -24,7 +24,7 @@ const handleHide = () => {
         <div className={styles.logo}>
           <Link href='/'>
             <Image
-              src='/logo.svg'
+              src='/img/Navbar/logo.svg'
               width={30}
               height={30}
               alt="Logo"

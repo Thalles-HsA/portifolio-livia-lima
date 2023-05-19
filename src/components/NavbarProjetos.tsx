@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import Image from "next/image";
-import styles from '../styles/NavbarProjetos.module.css'
+import styles from '../styles/components/NavbarProjetos.module.css'
 import Link from "next/link";
 import { hagridRegular2 } from "@/styles/fonts";
 
@@ -31,7 +31,7 @@ const NavbarProjetos = () => {
       <div className={styles.logo}>
         <Link href={getLink()}>
           <Image
-            src='/logo.svg'
+            src='/img/Navbar/logo.svg'
             width={30}
             height={30}
             alt="Logo"

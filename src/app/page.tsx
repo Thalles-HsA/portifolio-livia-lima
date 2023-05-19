@@ -1,10 +1,10 @@
 import Navbar from "@/components/Navbar";
-import Biografia from "./Biografia";
-import Contato from "./Contato";
-import DeOndeVim from "./DeOndeVim";
-import Home from "./Home";
-import OQuePossoFazer from "./OquePossofazer";
-import ProjetosDeDestque from "./ProjetosDeDestaque";
+import Biografia from "./_Biografia";
+import Contato from "./_Contato";
+import DeOndeVim from "./_DeOndeVim";
+import Home from "./_Home";
+import OQuePossoFazer from "./_OquePossofazer";
+import ProjetosDeDestque from "./_ProjetosDeDestaque";
 
 export default function Page() {
   return (
