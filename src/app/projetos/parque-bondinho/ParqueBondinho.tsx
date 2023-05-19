@@ -1,15 +1,16 @@
 import Image from 'next/image'
 import styles from '@/styles/projetos.module.css'
 import { hagridExtrabold, hagridRegular, hagridRegular2 } from '@/styles/fonts'
+import VideoPlayer from '@/components/Video'
 
 const ParqueBondinho = () => {
   return (
     <>
       <div className={styles['conteudo-horizontal']}>
         <div className={styles['conteudo-horizontal-imagens']}>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
         <div className={styles['conteudo-horizontal-descricao']}>
           <h2>
@@ -51,6 +52,7 @@ const ParqueBondinho = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
         </div>
       </div>
@@ -70,12 +72,13 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-vertical-imagens']}>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
           <Image
             src='/img/33.png'
             width={500}
             height={500}
+            quality={50}
             alt='git education'
           />
         </div>
@@ -96,19 +99,21 @@ const ParqueBondinho = () => {
         </div>
         <div className={styles['conteudo-vertical-imagens']}>
 
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
           <Image
             src='/img/2.png'
             width={250}
             height={458}
             alt='git education'
+            quality={50}
           />
           <Image
             src='/img/3.png'
             width={250}
             height={458}
             alt='git education'
+            quality={50}
           />
 
         </div>
@@ -133,6 +138,7 @@ const ParqueBondinho = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
         </div>
       </div>
@@ -156,18 +162,17 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-horizontal-imagens']}>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
-
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
       </div>
 
       <div className={styles['conteudo-horizontal']}>
         <div className={styles['conteudo-horizontal-imagens']}>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
         <div className={styles['conteudo-horizontal-descricao']}>
           <h2>
@@ -205,9 +210,10 @@ const ParqueBondinho = () => {
             width={360}
             height={500}
             alt='git education'
+            quality={50}
           />
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
       </div>
 
@@ -230,12 +236,14 @@ const ParqueBondinho = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
           <Image
             src='/img/37.png'
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
         </div>
       </div>
@@ -254,10 +262,10 @@ const ParqueBondinho = () => {
           </p>
         </div>
         <div className={styles['conteudo-vertical-imagens']}>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
       </div>
 

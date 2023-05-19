@@ -24,18 +24,24 @@ const Home = () => {
             width={150}
             height={150}
             alt='Gif animado'
+            priority
+            quality={25}
           />
           <Image
             src='/gif/gif-circulo.gif'
             width={150}
             height={150}
             alt='Gif animado'
+            priority
+            quality={25}
           />
           <Image
             src='/gif/gif-quadrado.gif'
             width={150}
             height={150}
             alt='Gif animado'
+            priority
+            quality={25}
           />
         </div>
       </div>

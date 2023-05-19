@@ -12,6 +12,7 @@ const OQuePossoFazer = () => {
               width={100}
               height={100}
               alt='git education'
+              quality={10}
             />
             <h2>
               O que posso fazer por você e pela sua empresa
@@ -24,6 +25,7 @@ const OQuePossoFazer = () => {
                 width={200}
                 height={200}
                 alt='About'
+                quality={25}
               />
               <div>
                 <h3>Redaçao</h3>
@@ -39,6 +41,7 @@ const OQuePossoFazer = () => {
                 width={200}
                 height={200}
                 alt='About'
+                quality={25}
               />
               <div>
                 <h3>Estratégia Criativa</h3>
@@ -53,6 +56,7 @@ const OQuePossoFazer = () => {
                 width={200}
                 height={200}
                 alt='About'
+                quality={25}
               />
               <div>
                 <h3>Planejamento de Conteúdo</h3>

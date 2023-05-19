@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from '../styles/Footer.module.css'
-import {BsFacebook, BsLinkedin, BsTwitter, BsInstagram} from 'react-icons/bs'
+import { BsFacebook, BsLinkedin, BsTwitter, BsInstagram } from 'react-icons/bs'
 import { hagridRegular2 } from "@/styles/fonts";
 
 
@@ -22,24 +22,28 @@ const Footer = () => {
           width={150}
           height={150}
           alt="Logo"
+          quality={10}
         />
         <Image
           src='/d1000.svg'
           width={150}
           height={150}
           alt="Logo"
+          quality={10}
         />
         <Image
           src='/clubMed.svg'
           width={150}
           height={150}
           alt="Logo"
+          quality={10}
         />
         <Image
           src='/shoppingTijuca.svg'
           width={150}
           height={150}
           alt="Logo"
+          quality={10}
         />
       </div>
       <div>

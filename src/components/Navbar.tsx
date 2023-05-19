@@ -28,6 +28,7 @@ const handleHide = () => {
               width={30}
               height={30}
               alt="Logo"
+              quality={10}
             />
             <h1>Lívia Lima</h1>
           </Link>

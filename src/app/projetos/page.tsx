@@ -40,6 +40,8 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.gif}
+              quality={10}
+
             />
             <Image
               src='/img/24.png'
@@ -47,6 +49,8 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.img}
+              quality={10}
+
             />
         </div >
       </div>
@@ -60,6 +64,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.gif}
+              quality={10}
             />
             <Image
               src='/img/39.png'
@@ -67,6 +72,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.img}
+              quality={10}
             />
           </h1>
         </div >
@@ -109,6 +115,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.gif}
+              quality={10}
             />
             <Image
               src='/img/40.png'
@@ -116,6 +123,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.img}
+              quality={10}
             />
           </h1>
         </div >
@@ -130,6 +138,7 @@ export default function Home() {
               height={500}
               alt='git education'
               className={styles.gif}
+              quality={10}
             />
 
           </h1>

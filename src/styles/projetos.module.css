@@ -40,8 +40,7 @@
 }
 
 .conteudo-horizontal-imagens video {
-  width: 200px;
-  padding: 0.5rem;
+  width: 200px !important
 }
 
 
@@ -90,8 +89,7 @@
 }
 
 .conteudo-vertical-imagens video {
-  width: 250px;
-  padding: 1rem;
+  width: 200px !important
 }
 
 /* -------------------------------------- */

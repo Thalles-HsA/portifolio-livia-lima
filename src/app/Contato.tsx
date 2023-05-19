@@ -56,6 +56,7 @@ const Contato = () => {
                 width={100}
                 height={100}
                 alt='git education'
+                quality={25}
               />
             </div>
           </div>
@@ -65,6 +66,7 @@ const Contato = () => {
               width={500}
               height={500}
               alt='git education'
+              quality={50}
             />
           </div>
         </div >

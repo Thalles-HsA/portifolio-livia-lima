@@ -24,24 +24,28 @@ const ClubMed = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
           <Image
             src='/img/47.png'
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
           <Image
             src='/img/48.png'
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
           <Image
             src='/img/49.png'
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
         </div>
       </div>
@@ -65,24 +69,28 @@ const ClubMed = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
           <Image
             src='/img/51.png'
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
           <Image
             src='/img/52.png'
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
           <Image
             src='/img/53.png'
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
         </div>
       </div>

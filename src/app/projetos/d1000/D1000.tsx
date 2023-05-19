@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from '@/styles/projetos.module.css'
 import { hagridExtrabold, hagridRegular2 } from '@/styles/fonts'
+import VideoPlayer from '@/components/Video'
 
 const D1000 = () => {
   return (
@@ -24,16 +25,17 @@ const D1000 = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
       </div>
 
       <div className={styles['conteudo-horizontal']}>
         <div className={styles['conteudo-horizontal-imagens']}>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
         <div className={styles['conteudo-horizontal-descricao']}>
           <h2>
@@ -75,9 +77,10 @@ const D1000 = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
-          <video src='/video/video2.mp4' controls></video>
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
       </div>
 
@@ -100,8 +103,9 @@ const D1000 = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
-          <video src='/video/video2.mp4' controls></video>
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
       </div>
 
@@ -124,9 +128,9 @@ const D1000 = () => {
             width={500}
             height={500}
             alt='git education'
+            quality={50}
           />
-          <video src='/video/video2.mp4' controls></video>
-
+          <VideoPlayer videoUrl="/video/video2.mp4" />
         </div>
       </div>
 
@@ -145,6 +149,7 @@ const D1000 = () => {
             width={120}
             height={120}
             alt='git education'
+            quality={50}
           />
         </div>
 
