@@ -10,7 +10,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 const Contato = () => {
   return (
     <>
-      <div className={styles.container} id='contato'>
+      <section className={styles.container} id='contato'>
         <div className={styles.conteudo}>
           <div className={styles.descricao}>
             <h3 className={hagridExtrabold.className}>
@@ -67,7 +67,7 @@ const Contato = () => {
             />
           </div>
         </div >
-      </div >
+      </section >
     </>
   )
 }

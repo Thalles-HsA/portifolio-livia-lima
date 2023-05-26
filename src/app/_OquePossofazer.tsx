@@ -4,7 +4,7 @@ import styles from '../styles/app/oquepossofazer.module.css'
 const OQuePossoFazer = () => {
   return (
     <>
-      <div className={styles.container} id='oquepossofazer'>
+      <section className={styles.container} id='oquepossofazer'>
         <div className={styles.conteudo}>
           <div className={styles.titulo}>
             <Image
@@ -66,7 +66,7 @@ const OQuePossoFazer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
 
   )

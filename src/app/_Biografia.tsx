@@ -7,7 +7,7 @@ import imagemPerfil from 'public/img/PaginaInicial/imagemdeperfil.png'
 const Biografia = () => {
   return (
     <>
-      <div className={styles.container} id='biografia'>
+      <section className={styles.container} id='biografia'>
         <div className={styles.conteudo}>
           <div>
             <div className={styles.titulo}>
@@ -43,7 +43,7 @@ const Biografia = () => {
             quality={25}
           />
         </div >
-      </div >
+      </section >
     </>
 
   )

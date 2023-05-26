@@ -5,7 +5,7 @@ import { hagridRegular2 } from '@/styles/fonts'
 const DeOndeVim = () => {
   return (
     <>
-      <div className={styles.container} id='deondevim'>
+      <section className={styles.container} id='deondevim'>
         <div className={styles.conteudo}>
           <div>
             <div className={styles.titulo}>
@@ -66,7 +66,7 @@ const DeOndeVim = () => {
             </div>
           </div>
         </div >
-      </div >
+      </section >
     </>
 
   )

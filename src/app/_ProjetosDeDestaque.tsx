@@ -12,7 +12,7 @@ import img24 from 'public/img/PaginaInicial/24semmargem.png'
 const ProjetosDeDestque = () => {
   return (
     <>
-      <div className={styles.container} id='projetos'>
+      <section className={styles.container} id='projetos'>
         <div className={styles.conteudo}>
           <Link href='/projetos' className={styles.box1}>
             <Image
@@ -60,7 +60,7 @@ const ProjetosDeDestque = () => {
             />
           </Link>
         </div >
-      </div >
+      </section >
     </>
   )
 }

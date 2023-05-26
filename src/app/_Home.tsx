@@ -4,7 +4,7 @@ import { hagridExtrabold, hagridRegular2 } from '@/styles/fonts'
 
 const Home = () => {
   return (
-      <div className={styles.container} id='home'>
+      <section className={styles.container} id='home'>
         <div className={styles.descricao}>
           <div>
             <h1>Lívia Lima</h1>
@@ -44,7 +44,7 @@ const Home = () => {
             quality={5}
           />
         </div>
-      </div>
+      </section>
   )
 }
 
