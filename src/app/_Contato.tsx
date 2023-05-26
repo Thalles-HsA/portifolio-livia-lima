@@ -21,7 +21,7 @@ const Contato = () => {
                 <TbWorldWww />
                 <div>
                   <h4>WEBSITE</h4>
-                  <a href='https://www.behance.net/livialima' target='_blank'>https://www.behance.net/livialima</a>
+                  <a href='https://www.behance.net/liviamlima' target='_blank'>https://www.behance.net/liviamlima</a>
                 </div>
               </div>
               <div className={styles.contatos}>
@@ -29,13 +29,6 @@ const Contato = () => {
                 <div>
                   <h4>E-mail</h4>
                   <a href='mailto:livialimams@gmail.com'>livialimams@gmail.com</a>
-                </div>
-              </div>
-              <div className={styles.contatos}>
-                <BsFillTelephoneFill />
-                <div>
-                  <h4>Telefone</h4>
-                  <a href='tel:21982207556' className={hagridRegular2.className}>(21) 98220-7556</a>
                 </div>
               </div>
             </div>
